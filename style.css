@@ -65,7 +65,7 @@ main {
     margin-bottom: 32px;
 }
 
-/* about section */
+/* about section style */
 .about-container {
     display: flex;
     justify-content: center;
@@ -141,7 +141,51 @@ main {
     color: #737272;
 }
 
-/* call section */
+/* blog section style */
+.blog-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-blog {
+    width: 400px;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+}
+
+.single-blog img {
+    width: 400px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.single-blog-content {
+    padding: 30px 25px;
+}
+
+.single-blog-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.single-blog-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #151414;
+}
+
+/* call section style */
 .call-section {
     background-image: url(./images/watch.png), url(./images/gradient1.png);
     background-repeat: no-repeat;
@@ -161,7 +205,7 @@ main {
     margin-bottom: 24px;
 }
 
-/* footer */
+/* footer style */
 footer {
     background-color: #151414;
 }
@@ -178,8 +222,6 @@ footer {
     line-height: 53px;
     color: #F8F8F8;
 }
-
-.footer-title {}
 
 .footer-description {
     font-size: 16px;
@@ -210,8 +252,6 @@ footer {
     display: inline-block;
 }
 
-.footer-right-content {}
-
 .subscribe-title {
     font-weight: 600;
     font-size: 25px;
@@ -219,8 +259,6 @@ footer {
     color: #FFFFFF;
     margin-bottom: 30px;
 }
-
-.subscribe-action {}
 
 .subscribe-action input[type="email"] {
     font-size: 18px;
