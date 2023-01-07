@@ -287,19 +287,18 @@ footer {
     color: #F3F3F3;
 }
 
-/* Chrome, Firefox, Opera, Safari */
+/* chrome, firefox, opera, safari */
 ::placeholder {
     color: #F3F3F3;
     opacity: 1;
-    /* Firefox */
 }
 
-/* Internet Explorer 10-11 */
+/* internet explorer 10-11 */
 :-ms-input-placeholder {
     color: #F3F3F3;
 }
 
-/* Microsoft Edge */
+/* microsoft edge */
 ::-ms-input-placeholder {
     color: #F3F3F3;
 }
