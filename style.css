@@ -10,13 +10,29 @@
     color: #005FAC;
     background: #FFFFFF;
     border-radius: 5px;
-    border: none;
+    border: 1px solid transparent;
     padding: 20px 25px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.primary-btn:hover {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+
 }
 
 .blue-btn {
     color: #FFFFFF;
     background: #005FAC;
+}
+
+.blue-btn:hover {
+    color: #005FAC;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
 }
 
 main {
@@ -234,6 +250,7 @@ footer {
 
 .contact-info {
     padding: 0;
+    margin-bottom: 32px;
 }
 
 .contact {
